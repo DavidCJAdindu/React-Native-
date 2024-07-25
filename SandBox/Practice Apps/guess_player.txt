@@ -1,0 +1,73 @@
+import React, { useState } from 'react';
+import {View, Text, Image, ScrollView, TextInput, StyleSheet, Button, Alert} from 'react-native';
+
+
+
+
+const HelloWorld = () => {
+
+
+  const [inputText, setInputText] = useState('');
+  const correctName = 'Cristiano Ronaldo';
+
+  const handleCheckName = () => {
+    if (inputText.trim().toLowerCase() === correctName.toLowerCase()) {
+      Alert.alert('Correct!', 'You have entered the correct name.');
+    } else {
+      Alert.alert('Incorrect', 'The name you entered is incorrect. Please try again.');
+    }
+  };
+
+  return (
+
+    <ScrollView automaticallyAdjustKeyboardInsets={true}>
+      <View style={styles.container}>
+
+        <Text style={styles.text}>Who is this football player ?</Text>
+
+        <Image
+          style={styles.image}
+          source={require('./assets/images/cr7.jpg')}
+        />
+
+        <TextInput style={styles.input} placeholder="Type the name here..." value={inputText} onChangeText={setInputText}/>
+
+        <Button title="Check Name" onPress={handleCheckName} style={styles.btn} />
+
+      </View>
+    </ScrollView>
+
+
+
+  );
+};
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+    marginTop: 200,
+  },
+  text: {
+    fontSize: 30,
+    color: '#000',
+  },
+  image: {
+    width: 250,
+    height: 350,
+    margin: 20,
+  },
+  input: {
+    height: 40,
+    width: 250,
+    borderColor: 'gray',
+    borderWidth: 2, 
+  }
+});
+
+
+
+export default HelloWorld;

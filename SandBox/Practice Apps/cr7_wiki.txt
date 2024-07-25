@@ -1,0 +1,290 @@
+import React from 'react';
+import { View, Text, StyleSheet, ScrollView, Image, Seperator } from 'react-native';
+// import { styles } from './Stylesheet';
+
+const App = () => {
+
+  return (
+    <ScrollView contentContainerStyle={styles.scrollViewContainer}>
+      <View style={styles.box}>
+        
+        <View style={styles.profile}>
+          <Text style={{ fontWeight: 'bold', color: 'black' }}>Cristiano Ronaldo</Text>
+          <Image
+            style={styles.image}
+            source={require('./assets/images/cr7.jpg')}
+          />
+          <Text>Ronaldo with Real Madrid in 2018</Text>
+        </View>
+
+        <View style={styles.seperator}>
+          <Text style={styles.seperatortxt}>Personal Information</Text>
+        </View>
+
+        <View style={styles.personal_info}>
+          <View style={styles.personal_info_}>
+            <Text>Full Name </Text>
+            <Text>Cristiano Ronaldo dos Santos Aveiro</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>Date of birth</Text>
+            <Text>5 February 1985 (age 39)</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>Place of birth</Text>
+            <Text>Funchal, Madeira, Portugal</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>Height</Text>
+            <Text>1.87 m (6 ft 2 in)</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>Position(s)</Text>
+            <Text>Forward</Text>
+          </View>
+        </View>
+
+        <View style={styles.seperator}>
+          <Text style={styles.seperatortxt}>Team Information</Text>
+        </View>
+
+        <View style={styles.personal_info}>
+          <View style={styles.personal_info_}>
+            <Text>Current Team</Text>
+            <Text>Al Nassr</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>Number</Text>
+            <Text>7</Text>
+          </View>
+        </View>
+
+        <View style={styles.seperator}>
+          <Text style={styles.seperatortxt}>Youth Carrer</Text>
+        </View>
+
+        <View style={styles.personal_info}>
+          <View style={styles.personal_info_}>
+            <Text>1992-1995</Text>
+            <Text>Andorinha</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>1995-1997</Text>
+            <Text>Nacional</Text>
+          </View>
+          <View style={styles.personal_info_}>
+            <Text>1997-2002</Text>
+            <Text>Sporting CP</Text>
+          </View>
+        </View>
+
+        <View style={styles.seperator}>
+          <Text style={styles.seperatortxt}>Senior Carrer</Text>
+        </View>
+
+        <View style={styles.personal_stats}>
+
+          <View style={styles.personal_stats_}>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Years</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Team</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Apps</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>(Gls)</Text>
+          </View>
+
+          <View style={styles.personal_stats_}>
+            <Text>2002–2003</Text>
+            <Text>Sporting CP B</Text>
+            <Text>2</Text>
+            <Text>0</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2002–2003</Text>
+            <Text>Sporting CP</Text>
+            <Text>25</Text>
+            <Text>3</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2003–2009</Text>
+            <Text>Manchester United</Text>
+            <Text>196</Text>
+            <Text>84</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2009–2018</Text>
+            <Text>Real Madrid</Text>
+            <Text>292</Text>
+            <Text>311</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2018–2021</Text>
+            <Text>Juventus</Text>
+            <Text>98</Text>
+            <Text>81</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2021–2022</Text>
+            <Text>Manchester United</Text>
+            <Text>40</Text>
+            <Text>19</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2023–</Text>
+            <Text>Al Nassr</Text>
+            <Text>47</Text>
+            <Text>49</Text>
+          </View>
+        </View>
+
+        <View style={styles.seperator}>
+          <Text style={styles.seperatortxt}>International Carrer</Text>
+        </View>
+
+        <View style={styles.personal_stats}>
+          <View style={styles.personal_stats_header}>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Years</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Team</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>Apps</Text>
+            <Text style={{ fontWeight: 'bold', color: 'black' }}>(Gls)</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2001</Text>
+            <Text>Portugal U15</Text>
+            <Text>9</Text>
+            <Text>7</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2001-2002</Text>
+            <Text>Portugal U17</Text>
+            <Text>7</Text>
+            <Text>5</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2003</Text>
+            <Text>Portugal U20</Text>
+            <Text>5</Text>
+            <Text>1</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2002-2003</Text>
+            <Text>Portugal U21</Text>
+            <Text>10</Text>
+            <Text>3</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2004</Text>
+            <Text>Portugal U23</Text>
+            <Text>3</Text>
+            <Text>2</Text>
+          </View>
+          <View style={styles.personal_stats_}>
+            <Text>2003-</Text>
+            <Text>Portugal</Text>
+            <Text>212</Text>
+            <Text>130</Text>
+          </View>
+        </View>
+      </View>
+    </ScrollView>
+  );
+
+
+};
+
+
+
+
+const styles = StyleSheet.create({
+  scrollViewContainer: {
+    flexGrow: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 16,
+  },
+  box: {
+    width: '95%',
+    height: '',
+    backgroundColor: '#f0f0f0',
+    borderRadius: 8,
+    alignItems: 'center',
+    padding: 16,
+    paddingBottom: 40,
+  },
+  profile: {
+    width: '100%',
+    alignItems: 'center',
+    padding: 16
+  },
+  image: {
+    width: 230,
+    height: 300,
+    marginVertical: 16,
+  },
+
+  seperator: {
+    width: 365,
+    height: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'skyblue',
+  },
+
+  seperatortxt: {
+    fontWeight: 'bold',
+    color: 'black',
+  },
+
+  personal_info: {
+  marginTop: 10,
+  flexDirection: 'column',
+  justifyContent: 'space-between',
+  alignItems: 'flex-end',
+  },
+
+  personal_info_: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      margin: 8,
+      width: 350,
+      borderBottomWidth: 1,
+      borderBlockColor: 'black',
+      // alignItems: 'flex-end'
+  }, 
+
+  personal_stats: {
+      marginTop: 10,
+      flexDirection: 'column',
+      justifyContent: 'space-between',
+      alignItems: 'flex-end',
+      },
+  
+  personal_stats_: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      margin: 8,
+      width: 350,
+      borderBottomWidth: 1,
+      borderBlockColor: 'black',
+      // alignItems: 'flex-end'
+  }, 
+
+  personal_stats_header: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      margin: 8,
+      width: 350,
+      borderBottomWidth: 1,
+      borderBlockColor: 'black',
+      // alignItems: 'flex-end'
+
+  }, 
+
+});
+
+
+
+
+
+
+
+
+export default App;

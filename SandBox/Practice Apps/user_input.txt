@@ -1,0 +1,39 @@
+import React, { useState } from 'react';
+import { View, TextInput, Text, StyleSheet } from 'react-native';
+
+const App = () => {
+  const [text, setText] = useState('');
+
+  return (
+    <View style={styles.container} automaticallyAdjustKeyboardInsets={true}>
+      <TextInput
+        style={styles.input}
+        placeholder="Type here"
+        onChangeText={setText}
+        value={text}
+      />
+      <Text style={styles.text}>You typed: {text}</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 10,
+    width: '80%',
+    paddingHorizontal: 10,
+  },
+  text: {
+    fontSize: 20,
+  },
+});
+
+export default App;
