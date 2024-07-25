@@ -1,0 +1,333 @@
+*** 10 React Native Beginner Projects 
+
+1. Hello World App
+> Description: Create a simple app that displays a "Hello, World!" message.
+
++> Key Features:
+- Display a text message
+
++> Learning Objectives:
+- Basic setup of a React Native project
+- Using 'Text' and 'View' components
+- Basic styling with StyleSheet
+
++> Steps:
+1. Set up the project.
+2. Create a component to display the message.
+3. Style the text and container.
+
+
+----------------------------------------------------------------------------------
+
+
+2. Counter App
+> Description: Build a simple counter app where users can increase and decrease a counter value.
+
++> Key Features:
+- Increase counter
+- Decrease counter
+
++> Learning Objectives:
+- State management with 'useState'
+- Handling button presses with 'Button' or 'TouchableOpacity'
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a counter component with buttons.
+3. Implement the logic to increase and decrease the counter.
+4. Style the components.
+
+
+----------------------------------------------------------------------------------
+
+
+3. Greeting App
+> Description: Develop an app that takes a user's name as input and displays a greeting message.
+
++> Key Features:
+- Input field for the user's name
+- Display a greeting message
+
++> Learning Objectives:
+- Handling user input with 'TextInput'
+- State management with 'useState'
+- Basic styling with StyleSheet
+
++> Steps:
+1. Set up the project.
+2. Create a component with a text input field.
+3. Implement the logic to update the greeting message based on the input.
+4. Style the components.
+
+----------------------------------------------------------------------------------
+
+
+4. Simple Stopwatch 
+> Description: Create a basic stopwatch that starts, stops, and resets.
+
++> Key Features:
+- Start the stopwatch
+- Stop the stopwatch
+- Reset the stopwatch
+
++> Learning Objectives:
+- Handling timers with 'setInterval' and 'clearInterval'
+- State management with 'useState'
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a stopwatch component with buttons.
+3. Implement the logic for starting, stopping, and resetting the stopwatch.
+4. Style the components.
+
+
+----------------------------------------------------------------------------------
+
+
+5. Basic Profile Card
+> Description: Build a simple profile card that displays a user's name, photo, and a short bio.
+
++> Key Features:
+- Display user's name
+- Display user's photo
+- Display a short bio
+
++> Learning Objectives:
+- Using 'Image' component to display photos
+- Layout with 'View' and 'Text'
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a profile card component.
+3. Add components for the photo, name, and bio.
+4. Style the profile card to make it look visually appealing.
+
+
+----------------------------------------------------------------------------------
+
+
+6. Color Picker App
+> Description: Create an app that allows users to pick a color from a list and display the selected color in a box.
+
++> Key Features:
+- List of colors
+- Display selected color in a box
+
++> Learning Objectives
+- Handling user input
+- State management with 'useState'
+- List rendering with 'FlatList'
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a list of colors.
+3. Implement logic to update the displayed color based on user selection.
+4. Style the components.
+
+
+----------------------------------------------------------------------------------
+
+
+7. BMI Calculator
+> Description: Build a simple BMI calculator that takes height and weight as input and displays the BMI.
+
++> Key Features:
+- Input fields for height and weight
+- Calculate and display BMI
+
++> Learning Objectives:
+- Handling user input with 'TextInput'
+- State management with 'useState'
+- Basic calculations
+- Basic styling with StyleSheet
+
++> Steps:
+1. Set up the project.
+2. Create input fields for height and weight.
+3. Implement BMI calculation logic.
+4. Display the calculated BMI.
+5. Style the components.
+
+----------------------------------------------------------------------------------
+
+
+8. Simple Quiz App 
+> Description: Develop a simple quiz app with multiple-choice questions and display the score at the end.
+
++> Key Features:
+- Display multiple-choice questions
+- Calculate and display the score
+
++> Learning Objectives:
+- State management with 'useState'
+- Handling user input
+- Conditional rendering
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a list of questions with options.
+3. Implement logic to handle user answers and calculate the score.
+4. Display the score at the end.
+5. Style the components.
+
+
+----------------------------------------------------------------------------------
+
+
+9. Currency Converter
+> Description: Create a simple currency converter that converts an amount from one currency to another.
+
++> Key Features:
+- Input field for amount
+- Convert and display converted amount
+
++> Learning Objectives:
+- Handling user input with 'TextInput'
+- State management with 'useState'
+- Basic calculations
+- Basic styling with StyleSheet
+
++> Steps:
+1. Set up the project.
+2. Create an input field for the amount.
+3. Implement logic to convert the amount based on a fixed conversion rate.
+4. Display the converted amount.
+5. Style the components.
+
+
+----------------------------------------------------------------------------------
+
+
+10. Contact List
+> Description: Build a simple contact list app that displays a list of contacts with names and phone numbers.
+
++> Key Features:
+- Display a list of contacts
+- Optionally add new contacts
+
++> Learning Objectives:
+- List rendering with 'FlatList'
+- State management with 'useState'
+- Handling user input with 'TextInput'
+- Basic styling
+
++> Steps:
+1. Set up the project.
+2. Create a list of contacts.
+3. Implement functionality to add new contacts (optional).
+4. Display the list of contacts.
+5. Style the components.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
