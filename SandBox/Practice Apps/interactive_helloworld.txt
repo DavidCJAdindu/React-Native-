@@ -1,0 +1,35 @@
+import React from 'react';
+import { View, Text, StyleSheet, SafeAreaView, Image, Button} from 'react-native';
+import { styles } from './StyleSheet'
+
+const HelloWorld = () => {
+
+  const textPress = () => console.log("Text Clicked!");
+  const buttonPress = () => alert("Button Clicked!");
+
+  return (
+    // safe area view adds padding to make sure content is within a safe area on the screen  
+    <SafeAreaView style={styles.container}>
+      <Text onPress={textPress}>Hello World !</Text>
+      <Image source = {{uri:'https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc'}} style = {{ width: 200, height: 200 }} />
+      <Button title='click me!' onPress={buttonPress} color='#fff' /> 
+    </SafeAreaView>
+  );
+};
+
+
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: 'dodgerblue',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    
+});
+
+
+
+export default HelloWorld;
