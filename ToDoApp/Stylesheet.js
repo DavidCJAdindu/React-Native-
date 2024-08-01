@@ -55,7 +55,8 @@ export const styles = StyleSheet.create({
 
     },
     addText:{
-
+        fontSize: 20,
+        fontWeight: 'bold',
     },
 
     // Task Component Styling 
